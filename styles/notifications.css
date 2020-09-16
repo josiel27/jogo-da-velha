@@ -58,39 +58,6 @@ body {
   text-shadow: none;
 }
 
-.square_box {
-  position: absolute;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-  border-top-left-radius: 45px;
-  opacity: 0.302;
-}
-
-.square_box.box_three {
-  background-image: -moz-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
-  background-image: -webkit-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
-  background-image: -ms-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
-  opacity: 0.059;
-  left: -80px;
-  top: -60px;
-  width: 500px;
-  height: 500px;
-  border-radius: 45px;
-}
-
-.square_box.box_four {
-  background-image: -moz-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
-  background-image: -webkit-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
-  background-image: -ms-linear-gradient(-90deg, #290a59 0%, #3d57f4 100%);
-  opacity: 0.059;
-  left: 150px;
-  top: -25px;
-  width: 550px;
-  height: 550px;
-  border-radius: 45px;
-}
-
 .alert:before {
   content: "";
   position: absolute;
