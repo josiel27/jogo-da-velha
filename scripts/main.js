@@ -42,6 +42,7 @@ initGame();
 
 function createNewGame() {
   workspace.innerHTML = "";
+  dismissNotifications();
   initGame();
   initEventsClick();
 }
