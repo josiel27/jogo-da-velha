@@ -28,6 +28,7 @@ function initEventsClick() {
       document.getElementById(`${space[numSpace].id}`).addEventListener('click', markSpace);
     }
   }
+  turnPlayer = 1;
   endGame = false;
 }
 
@@ -76,12 +77,7 @@ function getElem(id) {
 
 function gameOver(numOne, numTwo, numThree) {
 
-  var winNotification = document.getElementById('winNotification');
-  winNotification.textContent = 'O Player ' + ((turnPlayer === 1) ? "2" : "1") + ' venceu!';
-
-  var notification = document.getElementById('winnerPlayer');
-  notification.style.display = 'block';
-
+  showNotification();
   paintWinner(idSpaces[numOne]);
   paintWinner(idSpaces[numTwo]);
   paintWinner(idSpaces[numThree]);
